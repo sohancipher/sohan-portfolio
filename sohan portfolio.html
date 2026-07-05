@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sohan Maity | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="description" content="Sohan Maity — BSc Computer Science student focused on AI, Machine Learning, Data Analytics and Cyber Security. Explore projects, skills, and ways to connect." />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%233b82f6'/%3E%3Cstop offset='1' stop-color='%238b5cf6'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='100' height='100' rx='22' fill='%230b1120'/%3E%3Ctext x='50' y='68' font-size='58' font-family='Arial, sans-serif' font-weight='700' fill='url(%23g)' text-anchor='middle'%3ES%3C/text%3E%3C/svg%3E" />
+  <!-- Open Graph -->
+  <meta property="og:title" content="Sohan Maity | Portfolio" />
+  <meta property="og:description" content="BSc CS student building with AI, web dev, and open source." />
+  <meta property="og:type" content="website" />
+  <!-- Font Awesome 6 (free) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  <!-- Google Font: Inter + Poppins (clean) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600;14..32,700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+</head>
+<body>
+<div class="container">
+
+  <!-- NAVIGATION (glass) -->
+  <nav>
+    <div class="logo">Sohan Maity</div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu" aria-expanded="false">
+      <i class="fas fa-bars"></i>
+    </button>
+  </nav>
+
+  <!-- HERO -->
+  <header id="hero">
+    <div class="hero-content fade-up">
+      <div class="hero-badge"><i class="fas fa-code"></i> CS student · developer</div>
+      <h1>Hi, I'm <span>Sohan Maity</span></h1>
+      <p class="hero-sub">Passionate about building clean, efficient systems. Exploring AI, web dev, and open source.</p>
+      <div class="btn-group">
+        <a href="#projects" class="btn btn-primary"><i class="fas fa-rocket"></i> View Work</a>
+        <a href="#contact" class="btn btn-outline"><i class="fas fa-paper-plane"></i> Let's talk</a>
+      </div>
+    </div>
+    <div class="hero-image fade-up">
+      <div class="avatar"><i class="fas fa-user-astronaut"></i></div>
+      <div class="status-badge">
+        <span class="dot"></span>
+        <span>Open to internships and opportunities</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- ABOUT (with staggered fade-up animations) -->
+  <section id="about">
+    <h2 class="section-title section-title-center fade-up">About Me</h2>
+    <div class="about-content">
+      <div class="about-left fade-in" style="transition-delay: 0s;">
+      <div class="about-stats">
+        <div class="stat-card fade-up" style="transition-delay: 0s;">
+          <div class="stat-number">3<sup>rd</sup></div>
+          <div class="stat-label">Year of BSc CS</div>
+        </div>
+        <div class="stat-card fade-up" style="transition-delay: 0.1s;">
+          <div class="stat-number">4+</div>
+          <div class="stat-label">Languages Known</div>
+        </div>
+        <div class="stat-card fade-up" style="transition-delay: 0.2s;">
+          <div class="stat-number">AI</div>
+          <div class="stat-label">Career Focus</div>
+        </div>
+        <div class="stat-card fade-up" style="transition-delay: 0.3s;">
+          <div class="stat-number">∞</div>
+          <div class="stat-label">Curiosity</div>
+        </div>
+      </div>
+      </div>
+      <!-- About Text Paragraphs (each fades individually) -->
+      <div class="about-text">
+        <p class="fade-up" style="transition-delay: 0.1s;">
+          Hello! I'm Sohan Maity, a third-year BSc Computer Science student with a strong foundation in programming. I firmly believe that technology has the power to solve real-world problems, and I am committed to being part of that solution.
+        </p>
+        <p class="fade-up" style="transition-delay: 0.3s;">
+          My core interests lie in Artificial Intelligence, Machine Learning, Data Analytics, and Cyber Security. I am passionate about integrating programming, data analysis, and security principles to develop innovative, data-driven, and resilient software solutions.
+        </p>
+        <p class="fade-up" style="transition-delay: 0.5s;">
+          I am eager to explore emerging technologies and collaborate on challenging projects that drive meaningful impact, while continuously honing my technical expertise.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <h2 class="section-title section-title-center fade-up">⚡ Skills</h2>
+    <p class="section-sub fade-up">Tools & technologies I work with</p>
+    <div class="skills-grid">
+      <div class="skill-item fade-up"><i class="fab fa-python"></i><span>Python</span></div>
+      <div class="skill-item fade-up"><i class="fab fa-java"></i><span>Java</span></div>
+      <div class="skill-item fade-up"><i class="fas fa-code"></i><span>C</span></div>
+      <div class="skill-item fade-up"><i class="fab fa-html5"></i><span>HTML</span></div>
+      <div class="skill-item fade-up"><i class="fab fa-css3-alt"></i><span>CSS</span></div>
+      <div class="skill-item fade-up"><i class="fab fa-js"></i><span>JavaScript</span></div>
+      <div class="skill-item fade-up"><i class="fas fa-database"></i><span>SQL</span></div>
+      <div class="skill-item fade-up"><i class="fab fa-git-alt"></i><span>Git</span></div>
+      <div class="skill-item fade-up"><i class="fab fa-github"></i><span>GitHub</span></div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <h2 class="section-title section-title-center fade-up">📁 Projects</h2>
+    <p class="section-sub fade-up">Some things I've built recently</p>
+    <div class="project-grid">
+
+      <div class="project-card fade-up">
+        <div class="icon"><i class="fas fa-chart-line"></i></div>
+        <h3>College website</h3>
+        <p>Interactive college website with dynamic content and responsive design, built using HTML, CSS, and JavaScript.</p>
+        <div class="project-tags"><span>HTML5</span><span>JavaScript</span></div>
+        <a href="#" class="project-link" target="_blank" rel="noopener noreferrer"><!-- TODO: link to actual repo -->Source Code <i class="fas fa-arrow-right"></i></a>
+      </div>
+
+
+      <div class="project-card fade-up">
+        <div class="icon"><i class="fas fa-brain"></i></div>
+        <div class="project-tags"><span>Currently working on</span></div>
+        <h3>AI Chat Assistant</h3>
+        <p>RAG‑based chatbot with context memory, built using Python &amp; FastAPI.</p>
+        <div class="project-tags"><span>Python</span><span>FastAPI</span></div>
+        <a href="#" class="project-link" target="_blank" rel="noopener noreferrer"><!-- TODO: link to actual repo -->Source Code <i class="fas fa-arrow-right"></i></a>
+      </div>
+
+       <div class="project-card fade-up">
+        <div class="icon"><i class="fas fa-database"></i></div>
+        <div class="project-tags"><span>future project</span></div>
+        <h3>Data Analytics Dashboard</h3>
+        <p>Interactive dashboard for visualizing and analyzing datasets, built using Python, Pandas, and Plotly.</p>
+        <div class="project-tags"><span>Python</span><span>Pandas</span><span>Plotly</span></div>
+        <a href="#" class="project-link" target="_blank" rel="noopener noreferrer"><!-- TODO: link to actual repo -->Source Code <i class="fas fa-arrow-right"></i></a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <h2 class="section-title section-title-center fade-up">Get In Touch</h2>
+    <div class="contact-wrapper fade-up">
+      <div class="contact-left">
+        <div class="contact-tag"><i class="fas fa-envelope" style="margin-right: 6px;"></i> CONTACT</div>
+        <h2>Let's connect and create something great</h2>
+        <p>Whether you're looking to collaborate on a project, discuss technology, or simply say hello — my inbox is always open. I'd love to hear from you.</p>
+      </div>
+      <div class="contact-right">
+        <div class="contact-card">
+          <div class="icon">📞</div>
+          <div><h4>PHONE</h4><p><a href="tel:+919820935160" style="color:inherit;">+91 98209 35160</a></p></div>
+        </div>
+        <div class="contact-card">
+          <div class="icon">✉️</div>
+          <div><h4>EMAIL</h4><p><a href="mailto:sohanmaity1027@gmail.com" style="color:inherit;">sohanmaity1027@gmail.com</a></p></div>
+        </div>
+        <div class="contact-card">
+          <div class="icon">📍</div>
+          <div><h4>LOCATION</h4><p>Mumbai, India</p></div>
+        </div>
+        <div class="social-links">
+          <!-- TODO: replace # with your real GitHub/LinkedIn profile URLs -->
+          <a href="https://github.com/sohancipher" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile"><i class="fab fa-github"></i> GitHub</a>
+          <a href="https://www.linkedin.com/in/sohan-maity-280946418?utm_source=share_via&utm_content=profile&utm_medium=member_ios" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile"><i class="fab fa-linkedin-in"></i> LinkedIn</a>
+          <a href="mailto:sohanmaity1027@gmail.com" class="btn btn-primary">Say Hello</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    &copy; <span id="year"></span> · Designed with purpose &amp; passion.
+  </footer>
+</div>
+
+<button class="back-to-top" id="backToTop" aria-label="Back to top">
+  <i class="fas fa-arrow-up"></i>
+</button>
+
+<!-- Intersection Observer for fade-up -->
+<script>
+  (function() {
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, { threshold: 0.12 });
+
+    document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
+
+    // Mobile nav toggle
+    const navToggle = document.getElementById('navToggle');
+    const navLinks = document.getElementById('navLinks');
+    if (navToggle && navLinks) {
+      navToggle.addEventListener('click', () => {
+        const isOpen = navLinks.classList.toggle('open');
+        navToggle.setAttribute('aria-expanded', isOpen);
+        navToggle.innerHTML = isOpen ? '<i class="fas fa-xmark"></i>' : '<i class="fas fa-bars"></i>';
+      });
+      navLinks.querySelectorAll('a').forEach(link => {
+        link.addEventListener('click', () => {
+          navLinks.classList.remove('open');
+          navToggle.setAttribute('aria-expanded', false);
+          navToggle.innerHTML = '<i class="fas fa-bars"></i>';
+        });
+      });
+    }
+
+    // Highlight active nav link based on scroll position
+    const sections = document.querySelectorAll('section[id]');
+    const navAnchors = document.querySelectorAll('.nav-links a');
+    const sectionObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          navAnchors.forEach(a => a.classList.remove('active'));
+          const activeLink = document.querySelector('.nav-links a[href="#' + entry.target.id + '"]');
+          if (activeLink) activeLink.classList.add('active');
+        }
+      });
+    }, { rootMargin: '-40% 0px -55% 0px' });
+    sections.forEach(sec => sectionObserver.observe(sec));
+
+    // Back-to-top button
+    const backToTop = document.getElementById('backToTop');
+    if (backToTop) {
+      window.addEventListener('scroll', () => {
+        backToTop.classList.toggle('visible', window.scrollY > 500);
+      });
+      backToTop.addEventListener('click', () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      });
+    }
+  })();
+</script>
+</body>
+</html>
